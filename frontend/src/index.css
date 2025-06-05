@@ -73,12 +73,6 @@ li {
   word-break: break-word;
 }
 
-/*li .text {*/
-/*  display: block;            !* Щоб переносилося як блок *!*/
-/*  white-space: normal;*/
-/*  overflow-wrap: break-word; !* Сучасна версія переносу *!*/
-/*}*/
-
 li .delete-btn {
   position: absolute;
   top: 0;
@@ -90,4 +84,14 @@ li .delete-btn {
   border: none;
   cursor: pointer;
 }
+li .edit-btn {
+  position: absolute;
+  top: 0;
+  right: -70px;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;}
 
